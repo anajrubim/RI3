@@ -157,8 +157,6 @@ cli4.addTelefone(tel3);
 cli5.addTelefone(tel2);
 cli5.addTelefone(tel4);
 
-// console.log(cli1.getNomeUp);
-// console.log(cli1.getTelefones);
 
 let emp1 = new Empresa('IFood Soluções em Tecnologia LTDA', 'IFood', '12.345.678/0001-90', end6);
 
@@ -170,8 +168,5 @@ emp1.addCliente(cli5);
 
 emp1.addTelefone(tel3);
 emp1.addTelefone(tel2);
-
-// console.log(emp1.getClientes);
-// console.log(emp1.getTelefones);
 
 console.log(emp1.detalhes())
